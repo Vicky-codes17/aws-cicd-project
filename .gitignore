@@ -1,0 +1,19 @@
+### Virtual Environments
+myvenv/
+
+### Python cache
+__pyache__
+*.pyc
+
+### AWS key Pairs
+*.pem
+
+### Downladed zips and folder
+aws/
+*.zip
+
+### VS Code settings
+.vscode/
+
+### OS files
+.DS_Store
