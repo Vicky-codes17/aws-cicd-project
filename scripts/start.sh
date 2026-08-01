@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
-cd /home/ubuntu/aws-cicd-project
-source venv/bin/activate
-nohup python app.py > /tmp/aws-cicd-project.log 2>&1 &
+cd /home/ec2-user/flask-app
+
+nohup python3 app.py > app.log 2>&1 &
